@@ -10,3 +10,21 @@ if (cardOne === cardTwo) {
 } else {
   alert('Sorry, try again.');
 }
+
+document.getElementsByClassName('board').setAttribute('id', 'game-board');
+
+var gameboard = document.getElementsById('game-board');
+
+var createboard = function(); {
+	for (var i = 0; i < card.length; i ++) {
+
+var cardElement = document.createElement('div');
+
+cardElement.className = 'card';
+
+board.appendChild(cardElement);
+
+} 
+
+}
+
